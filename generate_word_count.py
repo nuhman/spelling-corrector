@@ -1,7 +1,7 @@
 from spell import words, get_count
 import pickle
 
-def get_word_count(TRAIN_FILE = 'big.txt'):    
+def get_word_count(TRAIN_FILE = 'datasets/big.txt'):    
     """
         End result: 
             {
