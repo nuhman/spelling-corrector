@@ -33,4 +33,5 @@ def start_test(test_file):
         spell_test(make_testset(f))
 
 if __name__ == '__main__':
-    start_test('spell-testset1.txt')
+    start_test('datasets/spell-testset1.txt')
+    start_test('datasets/spell-testset2.txt')
