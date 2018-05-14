@@ -94,16 +94,3 @@ def edits2(word):
 
     
 
-
-if __name__ == '__main__':    
-    _words = []
-    with open('big.txt') as f:
-        _words = words(f.read())
-    WORDS = get_count(_words)
-    print("Done creating `WORDS` dictionary ...")
-    #print(unit_tests())
-    spelltest(Testset(open('spell-testset1.txt'))) # Development set
-    spelltest(Testset(open('spell-testset2.txt'))) # Final test set
-
-
-
